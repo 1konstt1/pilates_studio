@@ -5,7 +5,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   width: 1366px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {
@@ -15,18 +15,16 @@ a {
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
   padding: 28px 97px;
-  gap: 70px;
 }
 
 .site-navigation {
   display: flex;
+  justify-content: space-between;
+  
   list-style: none;
   width: 465px;
-  justify-content: space-between;
-  padding: 0;
+  padding-left: 67px;
   font-size: 19px;
   font-weight: light;
 }
@@ -34,5 +32,60 @@ header {
 .header-phone {
   display: flex;
   align-items: center;
+  padding-left: 445px;
   color: black;
+  font-size: 16px;
+  font-family: 'Shippori Antique', sans-serif;
+  font-weight: bold;
 }
+.promo-block {
+  display: flex;
+  flex-direction: column;
+  padding: 95px  100px;
+  color: #fff;
+  /* background-image: url('/img/athletic-body.png') */
+}
+
+.h1-promo-block {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  font-stretch: condensed;
+  letter-spacing: 9px;
+  width: 250px;
+  margin: 0;
+}
+
+.h2-promo-block {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.oval-button {
+    display: flex;
+    margin-top: 50px;
+    width: 245px;
+    height: 50px;
+    /* background: #e9337c; */
+    -webkit-border-radius: 50px / 50px;
+    -moz-border-radius: 50px / 50px;
+    border-radius: 50px / 50px;
+    border: 2px solid #ffff;
+}
+
+.button-promo-block {
+  padding: 17px 50px; 
+  font-size: 14px;
+}
+/* 
+.line {
+  border-top: 1px solid #ffff;
+  width: 50px;
+} */
+/* 
+.athletic-body-promo-block {
+
+
+} */
