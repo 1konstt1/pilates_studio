@@ -41,7 +41,7 @@ header {
 .promo-block {
   display: flex;
   flex-direction: column;
-  padding: 95px  100px;
+  padding: 95px  100px 0;
   color: #fff;
 }
 
@@ -101,15 +101,50 @@ header {
 .about-pilates {
   display: flex;
   flex-direction: column;
+  width: 385px;
+  height: 315px;
+  padding: 70px 100px 0;
 }
 
 .h2-about-pilates {
+  width: 305px;
+  margin-top: -30px;
   color: #000000;
   font-size: 50px;
   font-weight: lighter;
   font-stretch: semi-condensed;
-  letter-spacing: 0.7px;
+  letter-spacing: 3.3px;
+  padding-left: 55px;
+}
 
+.line{
+  margin-top: 30px;
+  width: 37px;
+  height: 0px;
+  border: 2px solid #000000;
+}
+
+.p-about-pilates{
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.button-about-pilates{
+  color: #000000;
+  padding-top: 10px;
+}
+
+.right-arrow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  transform: rotate(45deg);
 }
 
 .dots {
