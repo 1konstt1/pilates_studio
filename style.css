@@ -43,7 +43,6 @@ header {
   flex-direction: column;
   padding: 95px  100px;
   color: #fff;
-  /* background-image: url('/img/athletic-body.png') */
 }
 
 .h1-promo-block {
@@ -59,6 +58,7 @@ header {
 .h2-promo-block {
   font-size: 18px;
   font-weight: 500;
+  letter-spacing: 0.3px;
   margin: 0;
   padding-top: 20px;
 }
@@ -66,26 +66,34 @@ header {
 .oval-button {
     display: flex;
     margin-top: 50px;
-    width: 245px;
-    height: 50px;
-    /* background: #e9337c; */
+    width: 247px;
+    height: 53px;
     -webkit-border-radius: 50px / 50px;
     -moz-border-radius: 50px / 50px;
     border-radius: 50px / 50px;
     border: 2px solid #ffff;
+    box-sizing: border-box;
 }
 
 .button-promo-block {
-  padding: 17px 50px; 
-  font-size: 14px;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  padding: 17px;
+  font-size: 13px;
+  padding-left: 45px;
+  letter-spacing: 1.3px;
 }
-/* 
-.line {
-  border-top: 1px solid #ffff;
-  width: 50px;
-} */
-/* 
-.athletic-body-promo-block {
 
+.arrow {
+  width: 70px;
+  padding-left: 10px;
+  padding-top: 3px;
+}
 
-} */
+.promo-athletic-body {
+  margin-top: -462px;
+  margin-left: 272px;
+  height: 776px;
+  width: 994px;
+}
