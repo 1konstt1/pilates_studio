@@ -101,27 +101,28 @@ header {
 .about-pilates {
   display: flex;
   flex-direction: column;
-  width: 385px;
+  width: 390px;
   height: 315px;
   padding: 70px 100px 0;
 }
 
 .h2-about-pilates {
   width: 305px;
-  margin-top: -30px;
+  margin-top: 3px;
   color: #000000;
   font-size: 50px;
   font-weight: lighter;
-  font-stretch: semi-condensed;
-  letter-spacing: 3.3px;
-  padding-left: 55px;
+  font-stretch: normal;
+  letter-spacing: -1.1px;
+  padding-left: 51px;
 }
 
 .line{
-  margin-top: 30px;
+  margin-top: -71px;
   width: 37px;
   height: 0px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
+  margin-bottom: 70px;
 }
 
 .p-about-pilates{
@@ -129,13 +130,17 @@ header {
   padding-top: 7px;
   padding-bottom: 20px;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
   line-height: 24px;
+  font-weight: lighter;
 }
 
 .button-about-pilates{
-  color: #000000;
+  color: #214226;
   padding-top: 10px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 .right-arrow {
@@ -144,15 +149,31 @@ header {
   height: 20px;
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
 }
 
 .dots {
   width: 134px;
   height: 132px;
+  padding-left: 425px;
+  margin-top: -105px;
+  px;
+
 }
 
 .pilates-studio-photo {
   width: 855px;
   height: 630px;
+  padding-left: 308px;
+  margin-top: -330px;
+}
+
+.tarifs{
+  padding-top: 520px;
+  width: 1168px;
+  height: 640px;
+}
+
+.h2-tarifs {
+
 }
